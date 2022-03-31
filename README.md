@@ -1,4 +1,5 @@
 # Bootstrap Tree View
+Enhanced functionality that is used in i2b2 web client
 
 ---
 
@@ -124,6 +125,7 @@ If you want to do more, here's the full node specification
 ```javascript
 {
   text: "Node 1",
+  title: "this is a tooltip",
   icon: "glyphicon glyphicon-stop",
   selectedIcon: "glyphicon glyphicon-stop",
   color: "#000000",
@@ -152,6 +154,11 @@ The following properties are defined to allow node level overrides, such as node
 `String` `Mandatory`
 
 The text value displayed for a given tree node, typically to the right of the nodes icon.
+
+#### title
+`String` `Optional`
+
+The text value displayed on a given node when the mouse is hovered over it for a few seconds. Essentially a tooltip.
 
 #### icon
 `String` `Optional`
