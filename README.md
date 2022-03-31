@@ -1,4 +1,4 @@
-# Bootstrap Tree View
+# Enhanced Bootstrap Tree View
 Enhanced functionality that is used in i2b2 web client
 
 ---
